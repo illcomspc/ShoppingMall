@@ -8,10 +8,10 @@ import 'package:shoppingmall/utility/my_constant.dart';
 
 final Map<String, WidgetBuilder> map = {
   '/authen': (BuildContext context) => Authen(),
-  '(/createAccount': (BuildContext context) => CreateAccount(),
-  'buyerService': (BuildContext context) => BuyerService(),
-  'salerService': (BuildContext context) => SalerService(),
-  'riderService': (BuildContext context) => RiderService(),
+  '/createAccount': (BuildContext context) => CreateAccount(),
+  '/buyerService': (BuildContext context) => BuyerService(),
+  '/salerService': (BuildContext context) => SalerService(),
+  '/riderService': (BuildContext context) => RiderService(),
 };
 
 String? initlalRoute;
